@@ -36,7 +36,7 @@ export default function ShoppingCart()
   return (
     <div>
       <Header/>
-      <p> Shopping Cart</p>
+      <h1> Shopping Cart</h1>
       <div>{items}</div>
       <Subtotal totalPrice = {6.75} totalItems = {3}/>
       <button>Proceed to checkout</button>
